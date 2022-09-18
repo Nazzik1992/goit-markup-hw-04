@@ -360,11 +360,14 @@ img {
 }
 .client-link:hover .client-card{
     fill: var(--link-color);
-}
+    }
 .client-link:focus .client-card{
     fill: var(--link-color);
 }
-.client-link:hover .client-link:focus{
+.client-link:hover{
+    border-color: var(--link-color);
+}
+.client-link:focus{
     border-color: var(--link-color);
 }
 .client-card {
